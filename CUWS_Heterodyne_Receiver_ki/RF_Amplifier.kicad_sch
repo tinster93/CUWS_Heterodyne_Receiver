@@ -1,0 +1,40 @@
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "8eafa394-e94b-4e8b-9ba9-a98521f8aeb7")
+	(paper "A4")
+	(lib_symbols)
+	(wire
+		(pts
+			(xy 187.96 97.79) (xy 167.64 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4c471425-06f2-4f2c-b10b-2aa86e9428a4")
+	)
+	(wire
+		(pts
+			(xy 167.64 96.52) (xy 167.64 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8639ab1e-2d57-4559-8b41-4b2089353bca")
+	)
+	(hierarchical_label "RF_Amplified_Signal"
+		(shape output)
+		(at 187.96 97.79 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "161c7613-76ad-4c0c-9302-21222b8016f6")
+	)
+)

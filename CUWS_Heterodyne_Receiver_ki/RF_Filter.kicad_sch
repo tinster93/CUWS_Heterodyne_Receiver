@@ -1,0 +1,20 @@
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "8e4a39cb-e5ee-4f47-b3b4-16e4b676e57a")
+	(paper "A4")
+	(lib_symbols)
+	(hierarchical_label "RF_Amplified_Signal"
+		(shape input)
+		(at 50.8 81.28 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "486cab33-dcb3-4ad5-9702-3087dbdd8839")
+	)
+)

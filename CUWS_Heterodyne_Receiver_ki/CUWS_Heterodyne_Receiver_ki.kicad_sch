@@ -1,0 +1,123 @@
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "b54120a5-f5cb-4b8f-8dd9-cbf19c375861")
+	(paper "A4")
+	(lib_symbols)
+	(wire
+		(pts
+			(xy 74.93 91.44) (xy 105.41 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bc157b27-38a7-4aa8-9757-933f8f28aff2")
+	)
+	(sheet
+		(at 105.41 87.63)
+		(size 22.86 16.51)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "7ea5b6a1-771f-4561-95cb-6b6b8d7cd773")
+		(property "Sheetname" "RF_Filter"
+			(at 105.41 86.9184 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "RF_Filter.kicad_sch"
+			(at 105.41 104.7246 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "RF_Amplified_Signal" input
+			(at 105.41 91.44 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "721f7306-0ef3-488e-bc38-7e13ae9ac143")
+		)
+		(instances
+			(project "CUWS_Heterodyne_Receiver_ki"
+				(path "/b54120a5-f5cb-4b8f-8dd9-cbf19c375861"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 53.34 87.63)
+		(size 21.59 16.51)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "f9997ec6-0ab5-49e8-b7b1-34f3cf4bb9e5")
+		(property "Sheetname" "RF_Amplifier"
+			(at 53.34 86.9184 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "RF_Amplifier.kicad_sch"
+			(at 53.34 104.7246 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "RF_Amplified_Signal" output
+			(at 74.93 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "9227708d-ef1d-4315-be6d-14febf567217")
+		)
+		(instances
+			(project "CUWS_Heterodyne_Receiver_ki"
+				(path "/b54120a5-f5cb-4b8f-8dd9-cbf19c375861"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+)
