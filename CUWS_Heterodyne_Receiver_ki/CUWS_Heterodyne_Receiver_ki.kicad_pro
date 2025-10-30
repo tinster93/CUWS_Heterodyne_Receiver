@@ -394,6 +394,38 @@
     [
       "7ea5b6a1-771f-4561-95cb-6b6b8d7cd773",
       "RF_Filter"
+    ],
+    [
+      "012bece3-d1fc-4273-a6aa-63446c34e431",
+      "RF_Mixer"
+    ],
+    [
+      "ff21422b-bd67-4079-97a6-4bea0dcba88f",
+      "IF_Filter"
+    ],
+    [
+      "ed50e85b-91dd-4eba-9a92-a2df3e99bb9b",
+      "RF_Local_Oscillator"
+    ],
+    [
+      "9db7192f-928a-4418-929d-5320a699a583",
+      "IF_Mixer"
+    ],
+    [
+      "50d57b38-dc9e-4e0f-83e6-95cb4cc32af8",
+      "IF_Local_Oscillator"
+    ],
+    [
+      "16591230-9530-4c97-8e5f-0b22d93769a7",
+      "Low_Pass_Filter"
+    ],
+    [
+      "142feb89-e55b-4c6f-b6f6-1ce0ab57ec60",
+      "AF_Amp"
+    ],
+    [
+      "9c242379-462c-4396-847e-99b3e4686e98",
+      "AF_Output"
     ]
   ],
   "text_variables": {}

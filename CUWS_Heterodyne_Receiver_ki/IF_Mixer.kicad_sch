@@ -1,0 +1,44 @@
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "7691d2aa-9b5a-4dc5-af72-69a656b3ff17")
+	(paper "A4")
+	(lib_symbols)
+	(hierarchical_label "IF_Filtered_Signal"
+		(shape input)
+		(at 78.74 87.63 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "11bc5b86-de87-42a0-ae3e-54878df865d8")
+	)
+	(hierarchical_label "AF_Mixed_Signal"
+		(shape output)
+		(at 137.16 88.9 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "ce84f0f8-584a-4898-923e-6d56a41d38c6")
+	)
+	(hierarchical_label "IF_Local_Oscillator"
+		(shape input)
+		(at 114.3 99.06 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "d5b3c9a8-0150-423d-95a8-9fb918a2459a")
+	)
+)

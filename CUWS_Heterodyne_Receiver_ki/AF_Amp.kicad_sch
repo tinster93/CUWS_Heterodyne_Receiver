@@ -2,24 +2,12 @@
 	(version 20231120)
 	(generator "eeschema")
 	(generator_version "8.0")
-	(uuid "8e4a39cb-e5ee-4f47-b3b4-16e4b676e57a")
+	(uuid "9cdb7222-23c2-4988-82c3-7d2efc801eea")
 	(paper "A4")
 	(lib_symbols)
-	(hierarchical_label "RF_Amplified_Signal"
-		(shape input)
-		(at 50.8 81.28 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "486cab33-dcb3-4ad5-9702-3087dbdd8839")
-	)
-	(hierarchical_label "RF_Mixed_Signal"
+	(hierarchical_label "AF_Output"
 		(shape output)
-		(at 96.52 81.28 0)
+		(at 157.48 76.2 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -27,6 +15,18 @@
 			)
 			(justify left)
 		)
-		(uuid "5368067e-8e71-43dc-9827-6819f7aa3a0b")
+		(uuid "c88a1e54-2586-4d8c-8d0d-f5426650dab9")
+	)
+	(hierarchical_label "AF_Filtered_Signal"
+		(shape input)
+		(at 105.41 76.2 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "e4aa313a-1018-4971-94d9-83cfaaa8e124")
 	)
 )

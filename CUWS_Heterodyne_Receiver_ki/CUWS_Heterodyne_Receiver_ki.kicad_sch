@@ -4,10 +4,249 @@
 	(generator_version "8.0")
 	(uuid "b54120a5-f5cb-4b8f-8dd9-cbf19c375861")
 	(paper "A4")
-	(lib_symbols)
+	(lib_symbols
+		(symbol "power:GND"
+			(power)
+			(pin_numbers hide)
+			(pin_names
+				(offset 0) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "GND"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "GND_0_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 -1.27) (xy 1.27 -1.27) (xy 0 -2.54) (xy -1.27 -1.27) (xy 0 -1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "GND_1_1"
+				(pin power_in line
+					(at 0 0 270)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+	)
+	(junction
+		(at 195.58 59.69)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2277303e-e8f2-48ca-9321-ec4a68b69b7d")
+	)
+	(junction
+		(at 224.79 68.58)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "78b9cecb-411a-4a84-92b0-afec08b14301")
+	)
 	(wire
 		(pts
-			(xy 74.93 91.44) (xy 105.41 91.44)
+			(xy 195.58 58.42) (xy 195.58 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "03ad7028-ebbb-444a-881a-be0284c2c1af")
+	)
+	(wire
+		(pts
+			(xy 170.18 73.66) (xy 170.18 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "04d2130c-5351-4fd6-b330-889e538e7485")
+	)
+	(wire
+		(pts
+			(xy 191.77 59.69) (xy 195.58 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "12b60356-45a2-4fa1-a6b2-cbfa7338fcf9")
+	)
+	(wire
+		(pts
+			(xy 186.69 50.8) (xy 191.77 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "12f48470-be34-4067-8cca-da09793d3c33")
+	)
+	(wire
+		(pts
+			(xy 81.28 52.07) (xy 81.28 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "19dac3dd-4088-466f-bae1-fa52d5e55565")
+	)
+	(wire
+		(pts
+			(xy 215.9 68.58) (xy 224.79 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "25a05b8d-f6db-4eb5-8d3a-23b41d72415c")
+	)
+	(wire
+		(pts
+			(xy 152.4 45.72) (xy 154.94 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "36d8521b-a8db-4476-b2fc-74f4c1a4aba1")
+	)
+	(wire
+		(pts
+			(xy 100.33 77.47) (xy 100.33 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "473b4832-d8d9-4faf-a442-0382f64014f6")
+	)
+	(wire
+		(pts
+			(xy 147.32 68.58) (xy 152.4 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4a84021c-ba7c-4324-abdf-b47669191f61")
+	)
+	(wire
+		(pts
+			(xy 81.28 72.39) (xy 78.74 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7661aff6-7b56-461d-9ce8-c96b2905779b")
+	)
+	(wire
+		(pts
+			(xy 191.77 50.8) (xy 191.77 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "83820ceb-3906-47b3-9c5f-ccb2aa6ddc1c")
+	)
+	(wire
+		(pts
+			(xy 116.84 55.88) (xy 125.73 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a6164121-4ebf-428f-99e2-3e055465d2a8")
+	)
+	(wire
+		(pts
+			(xy 224.79 68.58) (xy 226.06 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "affa90bc-8cc1-42af-bc76-e5f93d145c92")
+	)
+	(wire
+		(pts
+			(xy 41.91 66.04) (xy 55.88 66.04)
 		)
 		(stroke
 			(width 0)
@@ -15,8 +254,358 @@
 		)
 		(uuid "bc157b27-38a7-4aa8-9757-933f8f28aff2")
 	)
+	(wire
+		(pts
+			(xy 245.11 63.5) (xy 257.81 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bf91915d-22b6-4713-a294-9731e43733ed")
+	)
+	(wire
+		(pts
+			(xy 152.4 68.58) (xy 152.4 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e588d1af-31a6-470c-af11-ce177362210a")
+	)
+	(wire
+		(pts
+			(xy 81.28 52.07) (xy 88.9 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ea44d2d8-7c56-499f-bc6e-ecfaca78d976")
+	)
+	(global_label "Ground"
+		(shape output)
+		(at 62.23 144.78 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "0cb8116d-de13-41c3-9bc1-6f71db5c9187")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 62.23 135.1426 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 62.23 144.78 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "74c3ecfa-32a3-4310-86ce-7ffc42b208ab")
+		(property "Reference" "#PWR01"
+			(at 62.23 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 62.23 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 62.23 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 62.23 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 62.23 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ab174f05-2bb9-40b2-96e0-e4116e08c25c")
+		)
+		(instances
+			(project ""
+				(path "/b54120a5-f5cb-4b8f-8dd9-cbf19c375861"
+					(reference "#PWR01")
+					(unit 1)
+				)
+			)
+		)
+	)
 	(sheet
-		(at 105.41 87.63)
+		(at 88.9 40.64)
+		(size 27.94 36.83)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "012bece3-d1fc-4273-a6aa-63446c34e431")
+		(property "Sheetname" "RF_Mixer"
+			(at 88.9 39.9284 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "RF_Mixer.kicad_sch"
+			(at 88.9 78.0546 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "RF_Filtered_Signal" input
+			(at 88.9 52.07 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "f51fd7a5-cbb6-4ddc-9abc-e23b527ad750")
+		)
+		(pin "RF_Local_Oscillator" input
+			(at 100.33 77.47 270)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "a800e487-9a35-4435-8439-531df15c8134")
+		)
+		(pin "IF_Mixed_Signal" output
+			(at 116.84 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "0b227e12-a0ce-4025-8395-dad8ee8b1e43")
+		)
+		(instances
+			(project "CUWS_Heterodyne_Receiver_ki"
+				(path "/b54120a5-f5cb-4b8f-8dd9-cbf19c375861"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 224.79 57.15)
+		(size 20.32 16.51)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "142feb89-e55b-4c6f-b6f6-1ce0ab57ec60")
+		(property "Sheetname" "AF_Amp"
+			(at 224.79 56.4384 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "AF_Amp.kicad_sch"
+			(at 224.79 74.2446 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "AF_Filtered_Signal" input
+			(at 224.79 68.58 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "f6124e2e-21f0-4140-b5e2-fadb1d67c88f")
+		)
+		(pin "AF_Output" output
+			(at 245.11 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "03bef72e-1d64-4662-8154-0eed9b56b4c1")
+		)
+		(instances
+			(project "CUWS_Heterodyne_Receiver_ki"
+				(path "/b54120a5-f5cb-4b8f-8dd9-cbf19c375861"
+					(page "10")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 195.58 57.15)
+		(size 20.32 15.24)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "16591230-9530-4c97-8e5f-0b22d93769a7")
+		(property "Sheetname" "Low_Pass_Filter"
+			(at 195.58 56.4384 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Low_Pass_Filter.kicad_sch"
+			(at 195.58 72.9746 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "AF_Mixed_Signal" input
+			(at 195.58 59.69 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "c5ce98a9-1aac-4147-b2e5-f453953b66c5")
+		)
+		(pin "AF_Filtered_Signal" output
+			(at 215.9 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "c423d27f-be53-47ab-8c1a-e9fa77debfc4")
+		)
+		(instances
+			(project "CUWS_Heterodyne_Receiver_ki"
+				(path "/b54120a5-f5cb-4b8f-8dd9-cbf19c375861"
+					(page "9")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 160.02 91.44)
+		(size 19.05 22.86)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "50d57b38-dc9e-4e0f-83e6-95cb4cc32af8")
+		(property "Sheetname" "IF_Local_Oscillator"
+			(at 159.3084 114.3 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "IF_Local_Oscillator.kicad_sch"
+			(at 179.6546 114.3 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "IF_Local_Oscillator" output
+			(at 170.18 91.44 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "bfa36f99-434f-4802-bd9c-e43f11c8bb9c")
+		)
+		(instances
+			(project "CUWS_Heterodyne_Receiver_ki"
+				(path "/b54120a5-f5cb-4b8f-8dd9-cbf19c375861"
+					(page "8")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 55.88 62.23)
 		(size 22.86 16.51)
 		(fields_autoplaced yes)
 		(stroke
@@ -28,7 +617,7 @@
 		)
 		(uuid "7ea5b6a1-771f-4561-95cb-6b6b8d7cd773")
 		(property "Sheetname" "RF_Filter"
-			(at 105.41 86.9184 0)
+			(at 55.88 61.5184 0)
 			(show_name yes)
 			(effects
 				(font
@@ -38,7 +627,7 @@
 			)
 		)
 		(property "Sheetfile" "RF_Filter.kicad_sch"
-			(at 105.41 104.7246 0)
+			(at 55.88 79.3246 0)
 			(show_name yes)
 			(effects
 				(font
@@ -48,7 +637,7 @@
 			)
 		)
 		(pin "RF_Amplified_Signal" input
-			(at 105.41 91.44 180)
+			(at 55.88 66.04 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -56,6 +645,16 @@
 				(justify left)
 			)
 			(uuid "721f7306-0ef3-488e-bc38-7e13ae9ac143")
+		)
+		(pin "RF_Filtered_Signal" output
+			(at 78.74 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "d9b60a12-2bd3-407c-b405-fb5ad903c57e")
 		)
 		(instances
 			(project "CUWS_Heterodyne_Receiver_ki"
@@ -66,7 +665,171 @@
 		)
 	)
 	(sheet
-		(at 53.34 87.63)
+		(at 257.81 58.42)
+		(size 12.7 15.24)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "9c242379-462c-4396-847e-99b3e4686e98")
+		(property "Sheetname" "AF_Output"
+			(at 257.81 57.7084 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "AF_Output.kicad_sch"
+			(at 257.81 74.2446 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "AF_Output" output
+			(at 257.81 63.5 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "e6553447-a6d8-43d0-ac28-52d18a4ee447")
+		)
+		(instances
+			(project "CUWS_Heterodyne_Receiver_ki"
+				(path "/b54120a5-f5cb-4b8f-8dd9-cbf19c375861"
+					(page "11")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 154.94 40.64)
+		(size 31.75 33.02)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "9db7192f-928a-4418-929d-5320a699a583")
+		(property "Sheetname" "IF_Mixer"
+			(at 154.94 39.9284 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "IF_Mixer.kicad_sch"
+			(at 154.94 74.2446 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "IF_Filtered_Signal" input
+			(at 154.94 45.72 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "8b90e0ce-081d-4392-b0f1-68f8c9a16845")
+		)
+		(pin "AF_Mixed_Signal" output
+			(at 186.69 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "22425fc8-ae7d-4d8e-9f41-1db419a411a3")
+		)
+		(pin "IF_Local_Oscillator" input
+			(at 170.18 73.66 270)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "0e7a9617-26c3-4e81-b00e-dbc46d4f82be")
+		)
+		(instances
+			(project "CUWS_Heterodyne_Receiver_ki"
+				(path "/b54120a5-f5cb-4b8f-8dd9-cbf19c375861"
+					(page "7")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 92.71 92.71)
+		(size 16.51 21.59)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "ed50e85b-91dd-4eba-9a92-a2df3e99bb9b")
+		(property "Sheetname" "RF_Local_Oscillator"
+			(at 91.9984 114.3 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "RF_Local_Oscillator.kicad_sch"
+			(at 109.8046 114.3 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "Local_Oscillator" output
+			(at 100.33 92.71 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "42e1ab46-6c7a-4829-aa30-1e1389fe5f71")
+		)
+		(instances
+			(project "CUWS_Heterodyne_Receiver_ki"
+				(path "/b54120a5-f5cb-4b8f-8dd9-cbf19c375861"
+					(page "7")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 20.32 62.23)
 		(size 21.59 16.51)
 		(fields_autoplaced yes)
 		(stroke
@@ -78,7 +841,7 @@
 		)
 		(uuid "f9997ec6-0ab5-49e8-b7b1-34f3cf4bb9e5")
 		(property "Sheetname" "RF_Amplifier"
-			(at 53.34 86.9184 0)
+			(at 20.32 61.5184 0)
 			(show_name yes)
 			(effects
 				(font
@@ -88,7 +851,7 @@
 			)
 		)
 		(property "Sheetfile" "RF_Amplifier.kicad_sch"
-			(at 53.34 104.7246 0)
+			(at 20.32 79.3246 0)
 			(show_name yes)
 			(effects
 				(font
@@ -98,7 +861,7 @@
 			)
 		)
 		(pin "RF_Amplified_Signal" output
-			(at 74.93 91.44 0)
+			(at 41.91 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -111,6 +874,64 @@
 			(project "CUWS_Heterodyne_Receiver_ki"
 				(path "/b54120a5-f5cb-4b8f-8dd9-cbf19c375861"
 					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 125.73 50.8)
+		(size 21.59 22.86)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "ff21422b-bd67-4079-97a6-4bea0dcba88f")
+		(property "Sheetname" "IF_Filter"
+			(at 125.73 50.0884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "IF_Amplifier.kicad_sch"
+			(at 125.73 74.2446 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "IF_Mixed_Signal" input
+			(at 125.73 55.88 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "98833a06-8a7b-4f95-9c81-6ab3ac76bb26")
+		)
+		(pin "IF_Filtered_Signal" output
+			(at 147.32 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "6ebc15d5-53b0-4284-a6f5-1c17be27f705")
+		)
+		(instances
+			(project "CUWS_Heterodyne_Receiver_ki"
+				(path "/b54120a5-f5cb-4b8f-8dd9-cbf19c375861"
+					(page "6")
 				)
 			)
 		)

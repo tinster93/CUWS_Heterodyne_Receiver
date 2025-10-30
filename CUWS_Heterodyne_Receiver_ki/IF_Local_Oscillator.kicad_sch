@@ -1,0 +1,20 @@
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "bef43245-6682-4b30-a1fe-e3fc9b517b88")
+	(paper "A4")
+	(lib_symbols)
+	(hierarchical_label "IF_Local_Oscillator"
+		(shape output)
+		(at 121.92 101.6 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "801db56f-5fa2-4f5c-a02b-dced180bd691")
+	)
+)
