@@ -7,7 +7,7 @@
 	(lib_symbols)
 	(hierarchical_label "AF_Output"
 		(shape output)
-		(at 157.48 76.2 0)
+		(at 177.8 54.61 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -18,12 +18,12 @@
 	)
 	(hierarchical_label "AF_Filtered_Signal"
 		(shape input)
-		(at 105.41 76.2 0)
+		(at 88.9 39.37 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left)
+			(justify right)
 		)
 		(uuid "e4aa313a-1018-4971-94d9-83cfaaa8e124")
 	)
