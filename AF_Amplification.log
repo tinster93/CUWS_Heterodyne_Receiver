@@ -1,0 +1,16 @@
+LTspice 24.1.10 for Windows
+Circuit: C:\Users\ejman\Documents\Cambridge\CUWS\CUWS_Heterodyne_Receiver\AF_Amplification.net
+Start Time: Thu Feb  5 15:35:47 2026
+solver = Normal
+Maximum thread count: 16
+tnom = 27
+temp = 27
+method = trap
+Direct Newton iteration for .op point succeeded.
+Total elapsed time: 0.158 seconds.
+
+Files loaded:
+C:\Users\ejman\Documents\Cambridge\CUWS\CUWS_Heterodyne_Receiver\AF_Amplification.net
+C:\Users\ejman\AppData\Local\LTspice\lib\cmp\standard.dio
+C:\Users\ejman\AppData\Local\LTspice\lib\cmp\standard.bjt
+
