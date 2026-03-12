@@ -1,15 +1,19 @@
 (kicad_sch
-	(version 20231120)
+	(version 20250114)
 	(generator "eeschema")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(uuid "b54120a5-f5cb-4b8f-8dd9-cbf19c375861")
 	(paper "A4")
 	(lib_symbols
 		(symbol "power:GND"
 			(power)
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
-				(offset 0) hide)
+				(offset 0)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -100,6 +104,7 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 	)
 	(junction
@@ -375,6 +380,10 @@
 	(sheet
 		(at 88.9 40.64)
 		(size 27.94 36.83)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -404,33 +413,33 @@
 		)
 		(pin "RF_Filtered_Signal" input
 			(at 88.9 52.07 180)
+			(uuid "f51fd7a5-cbb6-4ddc-9abc-e23b527ad750")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "f51fd7a5-cbb6-4ddc-9abc-e23b527ad750")
 		)
 		(pin "RF_Local_Oscillator" input
 			(at 100.33 77.47 270)
+			(uuid "a800e487-9a35-4435-8439-531df15c8134")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "a800e487-9a35-4435-8439-531df15c8134")
 		)
 		(pin "IF_Mixed_Signal" output
 			(at 116.84 55.88 0)
+			(uuid "0b227e12-a0ce-4025-8395-dad8ee8b1e43")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "0b227e12-a0ce-4025-8395-dad8ee8b1e43")
 		)
 		(instances
 			(project "CUWS_Heterodyne_Receiver_ki"
@@ -443,6 +452,10 @@
 	(sheet
 		(at 224.79 57.15)
 		(size 20.32 16.51)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -472,23 +485,23 @@
 		)
 		(pin "AF_Filtered_Signal" input
 			(at 224.79 68.58 180)
+			(uuid "f6124e2e-21f0-4140-b5e2-fadb1d67c88f")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "f6124e2e-21f0-4140-b5e2-fadb1d67c88f")
 		)
 		(pin "AF_Output" output
 			(at 245.11 63.5 0)
+			(uuid "03bef72e-1d64-4662-8154-0eed9b56b4c1")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "03bef72e-1d64-4662-8154-0eed9b56b4c1")
 		)
 		(instances
 			(project "CUWS_Heterodyne_Receiver_ki"
@@ -501,6 +514,10 @@
 	(sheet
 		(at 195.58 57.15)
 		(size 20.32 15.24)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -530,23 +547,23 @@
 		)
 		(pin "AF_Mixed_Signal" input
 			(at 195.58 59.69 180)
+			(uuid "c5ce98a9-1aac-4147-b2e5-f453953b66c5")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "c5ce98a9-1aac-4147-b2e5-f453953b66c5")
 		)
 		(pin "AF_Filtered_Signal" output
 			(at 215.9 68.58 0)
+			(uuid "c423d27f-be53-47ab-8c1a-e9fa77debfc4")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "c423d27f-be53-47ab-8c1a-e9fa77debfc4")
 		)
 		(instances
 			(project "CUWS_Heterodyne_Receiver_ki"
@@ -559,6 +576,10 @@
 	(sheet
 		(at 160.02 91.44)
 		(size 19.05 22.86)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -588,13 +609,13 @@
 		)
 		(pin "IF_Local_Oscillator" output
 			(at 170.18 91.44 90)
+			(uuid "bfa36f99-434f-4802-bd9c-e43f11c8bb9c")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "bfa36f99-434f-4802-bd9c-e43f11c8bb9c")
 		)
 		(instances
 			(project "CUWS_Heterodyne_Receiver_ki"
@@ -607,6 +628,10 @@
 	(sheet
 		(at 55.88 62.23)
 		(size 22.86 16.51)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -638,23 +663,23 @@
 		)
 		(pin "RF_Amplified_Signal" input
 			(at 55.88 66.04 180)
+			(uuid "721f7306-0ef3-488e-bc38-7e13ae9ac143")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "721f7306-0ef3-488e-bc38-7e13ae9ac143")
 		)
 		(pin "RF_Filtered_Signal" output
 			(at 78.74 72.39 0)
+			(uuid "d9b60a12-2bd3-407c-b405-fb5ad903c57e")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "d9b60a12-2bd3-407c-b405-fb5ad903c57e")
 		)
 		(instances
 			(project "CUWS_Heterodyne_Receiver_ki"
@@ -667,6 +692,10 @@
 	(sheet
 		(at 257.81 58.42)
 		(size 12.7 15.24)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -696,13 +725,13 @@
 		)
 		(pin "AF_Output" output
 			(at 257.81 63.5 180)
+			(uuid "e6553447-a6d8-43d0-ac28-52d18a4ee447")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "e6553447-a6d8-43d0-ac28-52d18a4ee447")
 		)
 		(instances
 			(project "CUWS_Heterodyne_Receiver_ki"
@@ -715,6 +744,10 @@
 	(sheet
 		(at 154.94 40.64)
 		(size 31.75 33.02)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -744,33 +777,33 @@
 		)
 		(pin "IF_Filtered_Signal" input
 			(at 154.94 45.72 180)
+			(uuid "8b90e0ce-081d-4392-b0f1-68f8c9a16845")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "8b90e0ce-081d-4392-b0f1-68f8c9a16845")
 		)
 		(pin "AF_Mixed_Signal" output
 			(at 186.69 50.8 0)
+			(uuid "22425fc8-ae7d-4d8e-9f41-1db419a411a3")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "22425fc8-ae7d-4d8e-9f41-1db419a411a3")
 		)
 		(pin "IF_Local_Oscillator" input
 			(at 170.18 73.66 270)
+			(uuid "0e7a9617-26c3-4e81-b00e-dbc46d4f82be")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "0e7a9617-26c3-4e81-b00e-dbc46d4f82be")
 		)
 		(instances
 			(project "CUWS_Heterodyne_Receiver_ki"
@@ -783,6 +816,10 @@
 	(sheet
 		(at 92.71 92.71)
 		(size 16.51 21.59)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -812,13 +849,13 @@
 		)
 		(pin "Local_Oscillator" output
 			(at 100.33 92.71 90)
+			(uuid "42e1ab46-6c7a-4829-aa30-1e1389fe5f71")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "42e1ab46-6c7a-4829-aa30-1e1389fe5f71")
 		)
 		(instances
 			(project "CUWS_Heterodyne_Receiver_ki"
@@ -831,6 +868,10 @@
 	(sheet
 		(at 20.32 62.23)
 		(size 21.59 16.51)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -862,13 +903,13 @@
 		)
 		(pin "RF_Amplified_Signal" output
 			(at 41.91 66.04 0)
+			(uuid "9227708d-ef1d-4315-be6d-14febf567217")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "9227708d-ef1d-4315-be6d-14febf567217")
 		)
 		(instances
 			(project "CUWS_Heterodyne_Receiver_ki"
@@ -881,6 +922,10 @@
 	(sheet
 		(at 125.73 50.8)
 		(size 21.59 22.86)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -910,23 +955,23 @@
 		)
 		(pin "IF_Mixed_Signal" input
 			(at 125.73 55.88 180)
+			(uuid "98833a06-8a7b-4f95-9c81-6ab3ac76bb26")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "98833a06-8a7b-4f95-9c81-6ab3ac76bb26")
 		)
 		(pin "IF_Filtered_Signal" output
 			(at 147.32 68.58 0)
+			(uuid "6ebc15d5-53b0-4284-a6f5-1c17be27f705")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "6ebc15d5-53b0-4284-a6f5-1c17be27f705")
 		)
 		(instances
 			(project "CUWS_Heterodyne_Receiver_ki"
@@ -941,4 +986,5 @@
 			(page "1")
 		)
 	)
+	(embedded_fonts no)
 )

@@ -1,14 +1,13 @@
 (kicad_sch
-	(version 20231120)
+	(version 20250114)
 	(generator "eeschema")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(uuid "e81ff986-986c-4863-b415-962fe1b09d2e")
 	(paper "A4")
 	(lib_symbols)
 	(hierarchical_label "AF_Filtered_Signal"
 		(shape output)
 		(at 133.35 106.68 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -20,7 +19,6 @@
 	(hierarchical_label "AF_Mixed_Signal"
 		(shape input)
 		(at 67.31 107.95 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
